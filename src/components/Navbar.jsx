@@ -49,7 +49,7 @@ const Navbar = ({ onMoviesClick, onTvShowsClick }) => {
           <button
             onClick={handleMenuToggle}
             type="button"
-            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-600 rounded-lg md:hidden hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-gray-600 dark:text-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            className="inline-flex bg-transparentitems-center p-2 w-10 h-10 justify-center text-sm text-gray-600 rounded-lg md:hidden hover:bg-transparent focus:outline-none focus:ring-2 focus:ring-gray-600 dark:text-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
             aria-controls="navbar-sticky"
             aria-expanded={isMenuOpen}
           >
